@@ -2,14 +2,14 @@
 {
     'name': "Extencion Terminal Punto de Venta JS",
 
-    'summary': """Extencion Terminal Punto de Venta JS""",
+    'summary': """Añade mejoras al Punto de Venta""",
 
     'description': """
-       EExtencion Terminal Punto de Venta JS
-     
+       Añade mejoras al Punto de Venta, tales como la inclusión en el recibo del nombre del cliente, Telf. y Dirección.
+
     """,
-    'version': '1.0',
-    'author': 'INM&LDR Soluciones Tecnologicas',
+    'version': '1.2',
+    'author': 'TeletrabajoVE',
 
     # any module necessary for this one to work correctly
     'depends': ['base','point_of_sale'],
@@ -30,6 +30,6 @@
             'ext_tpdv/static/src/xml/**/*',
         ],
     },
-    
+
     'application': True,
 }
